@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "6ebf8233565404c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2c02159f724e043",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5181d6ecda0bc9e5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "436345d192edf0ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web-capture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a72d8d42c1f4d347",
+    "type": "split",
+    "children": [
+      {
+        "id": "42723092c667ea3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0ebb933fbfb6155",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3da27352ef6d560f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a069642b94883fa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa81e5882e5ecfff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f7d56aa8537dfdb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web-capture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "436345d192edf0ba",
+  "lastOpenFiles": [
+    "Cloze.md",
+    "Inline.md",
+    "Web-capture.md",
+    "000 Main.md"
+  ]
+}

@@ -1,4 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
+const http = require('http');
 
 // Remember to rename these classes and interfaces!
 
@@ -14,8 +15,15 @@ export default class MyPlugin extends Plugin {
 	settings: MyPluginSettings;
 
 	async onload() {
+		console.log("hi")
 		await this.loadSettings();
 
+		http.createServer((req, res) => {
+			res.writeHead(200, {'Content-Type': 'text/plain'});
+			res.write('Hello World!');
+			res.end();
+		}).listen(8089);
+		/*
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
 			// Called when the user clicks the icon.
@@ -76,6 +84,7 @@ export default class MyPlugin extends Plugin {
 
 		// When registering intervals, this function will automatically clear the interval when the plugin is disabled.
 		this.registerInterval(window.setInterval(() => console.log('setInterval'), 5 * 60 * 1000));
+	*/
 	}
 
 	onunload() {
